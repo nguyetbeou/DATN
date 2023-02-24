@@ -1,0 +1,2390 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/displaynone_743.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/xans_layout_statelogoff.css"
+    />
+    <style type="text/css"></style>
+    <title>LocknLock Mall</title>
+  </head>
+  <body id="main">
+    <div id="skipNavigation">
+      <p><a href="#category">Xem Tất Cả Danh Mục</a></p>
+      <p><a href="#contents">Xem Thêm</a></p>
+    </div>
+
+    <div id="header">
+      <div class="header-top">
+        <div class="inner">
+          <div class="topArea clearBoth">
+            <h1 class="xans-element- xans-layout xans-layout-logotop">
+              <a href="/index.html"
+                ><img
+                  src="assets/imgs/logo.png"
+                  alt="LocknLock"
+              /></a>
+            </h1>
+            <form
+              id="searchBarForm"
+              action="/product/search.html"
+              method="get"
+              target="_self"
+              enctype="multipart/form-data"
+            >
+              <input id="banner_action" name="banner_action" type="hidden" />
+              <div class="xans-element- xans-layout xans-layout-searchheader">
+                <fieldset>
+                  <legend>Tìm Kiếm</legend>
+                  <input
+                    id="keyword"
+                    name="keyword"
+                    fw-filter=""
+                    class="inputTypeText"
+                    onmousedown="SEARCH_BANNER.clickSearchForm(this)"
+                    type="text"
+                  /><span class="search-button-top"
+                    ><input
+                      type="image"
+                      src="assets/imgs/icon_tim kiem.png"
+                      alt="Search"
+                      onclick="SEARCH_BANNER.submitSearchBanner(this); return false;"
+                    />
+                    Tìm kiếm</span
+                  >
+                  <ul class="autoDrop" id=""></ul>
+                </fieldset>
+              </div>
+            </form>
+            <div class="header-right">
+              <div class="xans-element- xans-layout xans-layout-statelogoff">
+                <ul>
+                  <li>
+                    <a href="/member/login.html" class="log"
+                      ><span class="top_icon top_icon1"></span>Đăng Nhập/Đăng
+                      Ký</a
+                    >
+                  </li>
+                  <li class="shoppinginfo_li">
+                    <a href="/order/basket.html"
+                      ><span class="top_icon top_icon3"></span>Giỏ Hàng
+                      <span
+                        class="count displaynone EC-Layout_Basket-count-display"
+                        ><span class="EC-Layout-Basket-count"></span></span
+                    ></a>
+                    <ul
+                      class="xans-element- xans-layout xans-layout-shoppinginfo"
+                    >
+                      <li class="displaynone">
+                        <a href="/myshop/mileage/historyList.html">
+                          <strong></strong
+                        ></a>
+                      </li>
+                      <li class="displaynone">
+                        <a href="/order/basket.html"
+                          >Giỏ Hàng
+                          <strong
+                            ><span class="displaynone">()</span></strong
+                          ></a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="/myshop/wish_list.html"
+                          >Danh Sách Yêu Thích
+                          <strong
+                            ><span
+                              id="xans_myshop_interest_prd_cnt"
+                            ></span></strong
+                        ></a>
+                      </li>
+                      <li class="displaynone">
+                        <a href="/myshop/coupon/coupon.html"
+                          >Mã Giảm Giá <strong></strong
+                        ></a>
+                      </li>
+                      <li class="displaynone">
+                        <a href="/myshop/deposits/historyList.html">
+                          <strong></strong
+                        ></a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="link"></div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="inner">
+          <div class="wrap-menu">
+            <ul class="main-menu">
+              <li class="all-li">
+                <a class="view_all_menu top_icon" href="">All</a>
+              </li>
+              <li><a href="/Airfryer/dealhot.html">Deal Hot</a></li>
+              <li><a href="/Airfryer/bestseller.html">Hàng bán chạy</a></li>
+              <li><a href="/Airfryer/newproducts.html">Hàng mới</a></li>
+              <li><a href="/story.html">Story</a></li>
+              <li><a href="/stores.html">Stores</a></li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="xans-element- xans-layout xans-layout-category AllCategoryList category-menu"
+        >
+          <ul class="clearBoth">
+            <li class="xans-record-">
+              <a class="menu-a2" href="/category/bình-giữ-nhiệt-bình-nước/24/"
+                >Bình giữ nhiệt / Bình nước</a
+              >
+            </li>
+            <li class="xans-record-">
+              <a class="menu-a2" href="/category/hộp-bảo-quản/25/"
+                >Hộp bảo quản</a
+              >
+            </li>
+            <li class="xans-record-">
+              <aTV class="menu-a2" href="/category/Điện-gia-dụng/23/"
+                >Điện gia dụng</aTV
+              >
+            </li>
+            <li class="xans-record-">
+              <a class="menu-a2" href="/category/Đồ-dùng-nhà-bếp/26/"
+                >Đồ dùng nhà bếp</a
+              >
+            </li>
+            <li class="xans-record-">
+              <a class="menu-a2" href="/category/Đồ-dùng-sinh-hoạt/27/"
+                >Đồ dùng sinh hoạt</a
+              >
+            </li>
+            <li class="xans-record-">
+              <a class="menu-a2" href="/category/locknlock-tv/108/"
+                >LocknLock TV</a
+              >
+            </li>
+            <li class="xans-record-">
+              <a class="menu-a2" href="/category/hưỡng-dẫn-sử-dụng-sản-phẩm/52/"
+                >Hưỡng dẫn sử dụng sản phẩm</a
+              >
+            </li>
+            <li class="xans-record-">
+              <a class="menu-a2" href="/category/recipe/68/">Recipe</a>
+            </li>
+            <li class="xans-record-">
+              <a class="menu-a2" href="/category/recipe/57/">Recipe</a>
+            </li>
+            <li class="xans-record-">
+              <a class="menu-a2" href="/category/giảm-giá/64/">Giảm giá</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="wrap">
+      <div id="container">
+        <div id="contents">
+          <div class="path root_width">
+            <span>Trang Hiện Tại</span>
+            <ol>
+              <li><a href="/">Trang chủ</a></li>
+              <li><strong>Story</strong></li>
+            </ol>
+          </div>
+          <section class="story_section story_section1">
+            <article class="root_width">
+              <div class="wrap-banner story-banner clearBoth">
+                <div class="box30">
+                  <div class="in-box30">
+                    <a href="/Airfryer/LocknLockTV.html?cate_no=108">
+                      <img
+                        src="assets/imgs/rb1.gif"
+                        alt=""
+                      />
+                      <h2>LocknLock TV</h2>
+                      <div>Xem biết về Lifestyle với sản phẩm LocknLock!</div>
+                    </a>
+                  </div>
+                </div>
+                <div class="box30">
+                  <div class="in-box30">
+                    <a href="/product/recipe.html?cate_no=105">
+                      <img
+                        src="assets/imgs/rb2.gif"
+                        alt=""
+                      />
+                      <h2>Recipe</h2>
+                      <div>
+                        Giới thiệu hướng dẫn nấu ăn đa dạng bạn có thể làm theo.
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="box30">
+                  <div class="in-box30">
+                    <a href="/Airfryer/RecipeBook.html?cate_no=52">
+                      <img
+                        src="assets/imgs/rb3.gif"
+                        alt=""
+                      />
+                      <h2>Hướng dẫn sử dụng</h2>
+                      <div>
+                        Bạn bị mất giấy HDSD không? Đừng lo, xem lại tại đây nha
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+          <section class="story_section story_section2">
+            <article class="root_width">
+              <div class=" ">
+                <h2 class="LockTv-h2">
+                  <span>LocknLock TV</span
+                  ><a
+                    class="story_sectio_more"
+                    href="/Airfryer/LocknLockTV.html?cate_no=108"
+                    >Xem tất cả</a
+                  >
+                </h2>
+              </div>
+              <div class="wrap-mProduct Product-list">
+                <div class="in-article">
+                  <div class="root_width">
+                    <div class="wrap_story_section2 clearBoth">
+                      <div class="story_section2-left">
+                        <iframe
+                          width="754"
+                          height="425"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="story_section2-right">
+                        <p>MỘT LY HẠNH PHÚC, MỘT CHÚT AN NHIÊN</p>
+                        <p>
+                          💌Hạnh phúc đơn giản đến từ những điều giản đơn. Như
+                          việc “masterchef” bếp nhà được nhìn thấy nụ cười hạnh
+                          phúc của người thân yêu khi thưởng thức ly nước mình
+                          làm. Bấy nhiêu đó cũng đủ xua tan mọi mệt mỏi trên
+                          đời!
+                        </p>
+                        <p>
+                          Máy vắt cam LocknLock với “tài năng” pha chế cực nhanh
+                          chóng sẽ là trợ lý cho những ly thanh mát. Gửi gắm sự
+                          ấm áp và chân thành qua từng món nước mỗi ngày cùng
+                          Lock nha!
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="xans-element- xans-product xans-product-listmain-20 xans-product-listmain xans-product-20 productList mProduct typeThumb"
+                    >
+                      <ul class="prdList prdList3">
+                        <li
+                          id="anchorBoxId_598"
+                          data-no="598"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnailB"
+                                    href="/product/xu-hƯỚng-thỜi-thƯỢng-tỰ-tin-tỎa-sÁng/598/category/1/display/21/"
+                                    name="anchorBoxName_598"
+                                    ><img
+                                      src="assets/imgs/01cd7d92b4d4a744cb6ea102c9abd92e.jpg"
+                                      id="eListPrdImage598_21"
+                                      alt="XU HƯỚNG THỜI THƯỢNG - TỰ TIN TỎA SÁNG ✨"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/xu-hƯỚng-thỜi-thƯỢng-tỰ-tin-tỎa-sÁng/598/category/1/display/21/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >XU HƯỚNG THỜI THƯỢNG - TỰ TIN TỎA SÁNG
+                                    ✨</span
+                                  ></a
+                                >
+                              </h4>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_596"
+                          data-no="596"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnailB"
+                                    href="/product/locknlock-x-feedy-gÀ-popcorn-kfc/596/category/1/display/21/"
+                                    name="anchorBoxName_596"
+                                    ><img
+                                      src="assets/imgs/ce25471cb90daa7e17e0e0d37f8d2651.jpg"
+                                      id="eListPrdImage596_21"
+                                      alt="[LocknLock x Feedy] GÀ POPCORN KFC"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/locknlock-x-feedy-gÀ-popcorn-kfc/596/category/1/display/21/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >[LocknLock x Feedy] GÀ POPCORN KFC</span
+                                  ></a
+                                >
+                              </h4>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_554"
+                          data-no="554"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnailB"
+                                    href="/product/locknlock-vlog-1-back-to-work/554/category/1/display/21/"
+                                    name="anchorBoxName_554"
+                                    ><img
+                                      src="assets/imgs/c5e4da19c1f27514fc7fba479eabd479.jpg"
+                                      id="eListPrdImage554_21"
+                                      alt="[LocknLock] VLOG 1: BACK TO WORK"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/locknlock-vlog-1-back-to-work/554/category/1/display/21/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >[LocknLock] VLOG 1: BACK TO WORK</span
+                                  ></a
+                                >
+                              </h4>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+          <section class="story_section story_section3">
+            <article class="root_width">
+              <div class=" ">
+                <h2 class="Recipe-h2">
+                  <span>Recipe</span
+                  ><a
+                    class="story_sectio_more"
+                    href="/product/recipe.html?cate_no=105"
+                    >Xem tất cả</a
+                  >
+                </h2>
+              </div>
+              <div class="wrap-mProduct Product-list">
+                <div class="in-article">
+                  <div class="root_width">
+                    <div
+                      class="xans-element- xans-product xans-product-listmain-17 xans-product-listmain xans-product-17 productList mProduct typeThumb"
+                    >
+                      <ul class="prdList prdList3">
+                        <li
+                          id="anchorBoxId_421"
+                          data-no="421"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnail"
+                                    href="/product/ba-chỉ-heo-chiên-giòn-da/421/category/1/display/18/"
+                                    name="anchorBoxName_421"
+                                    ><img
+                                      src="assets/imgs/e00c769bcf3192818ca9df7bac19ed45.jpg"
+                                      id="eListPrdImage421_18"
+                                      alt="Ba chỉ heo chiên giòn da"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/ba-chỉ-heo-chiên-giòn-da/421/category/1/display/18/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >Ba chỉ heo chiên giòn da</span
+                                  ></a
+                                >
+                              </h4>
+                              <ul
+                                class="xans-element- xans-product xans-product-listitem-17 xans-product-listitem xans-product-17 spec"
+                              >
+                                <li class="xans-record-">
+                                  <span style="font-size: 12px; color: #555555"
+                                    >Khẩu Phần: 6 người, Thời gian: 60
+                                    phút</span
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_422"
+                          data-no="422"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnail"
+                                    href="/product/sườn-non-nướng-chanh-muối/422/category/1/display/18/"
+                                    name="anchorBoxName_422"
+                                    ><img
+                                      src="assets/imgs/c66c0d28cd542384eff088e3dda48611.jpg"
+                                      id="eListPrdImage422_18"
+                                      alt="Sườn non nướng chanh muối"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/sườn-non-nướng-chanh-muối/422/category/1/display/18/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >Sườn non nướng chanh muối</span
+                                  ></a
+                                >
+                              </h4>
+                              <ul
+                                class="xans-element- xans-product xans-product-listitem-17 xans-product-listitem xans-product-17 spec"
+                              >
+                                <li class="xans-record-">
+                                  <span style="font-size: 12px; color: #555555"
+                                    >Khẩu Phần: 4 người, Thời gian: 18phút</span
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_423"
+                          data-no="423"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnail"
+                                    href="/product/bồ-câu-nhồi-xôi-hạt-sen/423/category/1/display/18/"
+                                    name="anchorBoxName_423"
+                                    ><img
+                                      src="assets/imgs/743d7cf84a107f669b5fe88361f2f747.jpg"
+                                      id="eListPrdImage423_18"
+                                      alt="Bồ câu nhồi xôi hạt sen"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/bồ-câu-nhồi-xôi-hạt-sen/423/category/1/display/18/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >Bồ câu nhồi xôi hạt sen</span
+                                  ></a
+                                >
+                              </h4>
+                              <ul
+                                class="xans-element- xans-product xans-product-listitem-17 xans-product-listitem xans-product-17 spec"
+                              >
+                                <li class="xans-record-">
+                                  <span style="font-size: 12px; color: #555555"
+                                    >Khẩu Phần: 4 người, Thời gian: 25
+                                    phút</span
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_424"
+                          data-no="424"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnail"
+                                    href="/product/Ức-vịt-cuộn-rau-củ-nướng-tương-gừng/424/category/1/display/18/"
+                                    name="anchorBoxName_424"
+                                    ><img
+                                      src="assets/imgs/51eb491e4ba0075149d55ab33aea98a9.jpg"
+                                      id="eListPrdImage424_18"
+                                      alt="Ức vịt cuộn rau củ nướng tương gừng"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/Ức-vịt-cuộn-rau-củ-nướng-tương-gừng/424/category/1/display/18/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >Ức vịt cuộn rau củ nướng tương gừng</span
+                                  ></a
+                                >
+                              </h4>
+                              <ul
+                                class="xans-element- xans-product xans-product-listitem-17 xans-product-listitem xans-product-17 spec"
+                              >
+                                <li class="xans-record-">
+                                  <span style="font-size: 12px; color: #555555"
+                                    >Khẩu Phần: 4 người, Thời gian: 19
+                                    phút</span
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_425"
+                          data-no="425"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnail"
+                                    href="/product/Đùi-gà-tứ-xuyên/425/category/1/display/18/"
+                                    name="anchorBoxName_425"
+                                    ><img
+                                      src="assets/imgs/4dc1255571d63887fae330b1ef2c818a.jpg"
+                                      id="eListPrdImage425_18"
+                                      alt="Đùi gà Tứ Xuyên"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/Đùi-gà-tứ-xuyên/425/category/1/display/18/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >Đùi gà Tứ Xuyên</span
+                                  ></a
+                                >
+                              </h4>
+                              <ul
+                                class="xans-element- xans-product xans-product-listitem-17 xans-product-listitem xans-product-17 spec"
+                              >
+                                <li class="xans-record-">
+                                  <span style="font-size: 12px; color: #555555"
+                                    >Khẩu Phần: 4 người, Thời gian: 33
+                                    phút</span
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_426"
+                          data-no="426"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnail"
+                                    href="/product/bò-nướng-tiêu-hồng/426/category/1/display/18/"
+                                    name="anchorBoxName_426"
+                                    ><img
+                                      src="assets/imgs/6ef5690566a0c7110dc63eea3c11da75.jpg"
+                                      id="eListPrdImage426_18"
+                                      alt="Bò nướng tiêu hồng"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/bò-nướng-tiêu-hồng/426/category/1/display/18/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >Bò nướng tiêu hồng</span
+                                  ></a
+                                >
+                              </h4>
+                              <ul
+                                class="xans-element- xans-product xans-product-listitem-17 xans-product-listitem xans-product-17 spec"
+                              >
+                                <li class="xans-record-">
+                                  <span style="font-size: 12px; color: #555555"
+                                    >Khẩu Phần: 2 người, Thời gian: 10-14
+                                    phút</span
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_427"
+                          data-no="427"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnail"
+                                    href="/product/bò-hầm-cam/427/category/1/display/18/"
+                                    name="anchorBoxName_427"
+                                    ><img
+                                      src="assets/imgs/2a2837b9d3c4faf53bfde751feda5f73.jpg"
+                                      id="eListPrdImage427_18"
+                                      alt="Bò hầm cam"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/bò-hầm-cam/427/category/1/display/18/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >Bò hầm cam</span
+                                  ></a
+                                >
+                              </h4>
+                              <ul
+                                class="xans-element- xans-product xans-product-listitem-17 xans-product-listitem xans-product-17 spec"
+                              >
+                                <li class="xans-record-">
+                                  <span style="font-size: 12px; color: #555555"
+                                    >Khẩu Phần: 3 người, Thời gian: 50
+                                    phút</span
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_428"
+                          data-no="428"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnail"
+                                    href="/product/phi-lê-cá-lăng-nướng-nghệ/428/category/1/display/18/"
+                                    name="anchorBoxName_428"
+                                    ><img
+                                      src="assets/imgs/4ef48f1f255e3eebf06aee0a49fe1a94.jpg"
+                                      id="eListPrdImage428_18"
+                                      alt="Phi lê cá lăng nướng nghệ"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/phi-lê-cá-lăng-nướng-nghệ/428/category/1/display/18/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >Phi lê cá lăng nướng nghệ</span
+                                  ></a
+                                >
+                              </h4>
+                              <ul
+                                class="xans-element- xans-product xans-product-listitem-17 xans-product-listitem xans-product-17 spec"
+                              >
+                                <li class="xans-record-">
+                                  <span style="font-size: 12px; color: #555555"
+                                    >Khẩu Phần: 4 người, Thời gian: 17
+                                    phút</span
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_429"
+                          data-no="429"
+                          class="xans-record-"
+                        >
+                          <div class="inner">
+                            <div class="thumbnail">
+                              <div class="prdImg">
+                                <div class="wrap-thumbnail">
+                                  <a
+                                    class="BG-thumbnail"
+                                    href="/product/chả-nghêu-xốt-tương-hàn-quốc/429/category/1/display/18/"
+                                    name="anchorBoxName_429"
+                                    ><img
+                                      src="assets/imgs/39edbd4bff5421f9bdd816d40fbb46e2.jpg"
+                                      id="eListPrdImage429_18"
+                                      alt="Chả nghêu xốt tương Hàn Quốc"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="description">
+                              <h4 class="name">
+                                <a
+                                  href="/product/chả-nghêu-xốt-tương-hàn-quốc/429/category/1/display/18/"
+                                  class=""
+                                  ><span style="font-size: 12px; color: #555555"
+                                    >Chả nghêu xốt tương Hàn Quốc</span
+                                  ></a
+                                >
+                              </h4>
+                              <ul
+                                class="xans-element- xans-product xans-product-listitem-17 xans-product-listitem xans-product-17 spec"
+                              >
+                                <li class="xans-record-">
+                                  <span style="font-size: 12px; color: #555555"
+                                    >Khẩu Phần: 4 người, Thời gian: 11
+                                    phút</span
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+        <hr class="layout" />
+      </div>
+      <hr class="layout" />
+      <div id="quick">
+        <div class="xans-element- xans-layout xans-layout-orderbasketcount">
+          <strong>Giỏ Hàng</strong>
+          <span><a href="/order/basket.html">0</a> Sản Phẩm</span>
+        </div>
+
+        <div class="xans-element- xans-layout xans-layout-productrecent">
+          <h2>
+            <a href="/product/recent_view_product.html">Đã Xem Gần Đây</a>
+          </h2>
+          <ul>
+            <li class="displaynone xans-record-">
+              <a href="/product/detail.html##param##"
+                ><img src="about:blank" alt="" /><span>##name##</span></a
+              >
+            </li>
+            <li class="displaynone xans-record-">
+              <a href="/product/detail.html##param##"
+                ><img src="about:blank" alt="" /><span>##name##</span></a
+              >
+            </li>
+          </ul>
+          <p class="player">
+            <img
+              src="assets/imgs/btn_recent_prev.gif"
+              alt="Prev"
+              class="prev"
+            /><img
+              src="assets/imgs/btn_recent_next.gif"
+              alt="Next"
+              class="next"
+            />
+          </p>
+        </div>
+
+        <p class="pageTop">
+          <a href="#header" title="Back to Top"
+            ><img
+              src="assets/imgs/btn_top1.gif"
+              alt="Top"
+          /></a>
+        </p>
+      </div>
+    </div>
+    <hr class="layout" />
+    <div id="footer">
+      <div class="inner">
+        <div class="xans-element- xans-layout xans-layout-footer">
+          <ul class="utilMenu clearBoth">
+            <li><a href="#">Về Chúng Tôi</a></li>
+            <li><a href="/warranty_policy.html">Chính sách bảo hành</a></li>
+            <li>
+              <a href="/member/agreement.html">Điều Khoản và Điều Kiện</a>
+            </li>
+            <li><a href="/customer.html">Chăm sóc khách hàng </a></li>
+            <li><a href="/stores.html">Cửa hàng </a></li>
+            <li>
+              <a href="#" class="verti_img"
+                ><img
+                  src="assets/imgs/yt_1.png"
+                  alt="Youtube"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="verti_img"
+                ><img
+                  src="assets/imgs/fb_1.png"
+                  alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="verti_img"
+                ><img
+                  src="assets/imgs/it_1.png"
+                  alt="Instargam"
+              /></a>
+            </li>
+          </ul>
+          <div class="foot_flex">
+            <div class="foot-box foot-box1">
+              <ul>
+                <li><span>Tên doanh nghiệp:</span> Lock&amp;Lock Mall</li>
+                <li><span>CEO:</span> Chun Hae Woo</li>
+                <li>
+                  <span>Địa chỉ:</span> Tầng 4, số 77 Hoàng Văn Thái, P.Tân Phú,
+                  Q.7, Tp. HCM
+                </li>
+                <li><span>Quản lý thông tin cá nhân:</span> Chun Hae Woo</li>
+              </ul>
+            </div>
+            <div class="foot-box foot-box2">
+              <ul>
+                <li><span>C/S Center:</span> 028 5413 5750 (425)</li>
+                <li><span>Week days:</span> 09:00 - 17:00</li>
+                <li><span>Lunch:</span> 12:00 - 13:00</li>
+                <li><span>Sat, Sun, Holiday:</span> Off</li>
+              </ul>
+            </div>
+            <div class="foot-box foot-box3">
+              <ul>
+                <li><span>Liên hệ:</span> 028 5413 5750 (425)</li>
+                <li><span>Email:</span> ngan.dnt@locknlock.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="div_onlinegovvn">
+            <img
+              src="assets/imgs/onlinegovvn%20sticker.png"
+              alt=""
+            />
+          </div>
+          <p class="copyright">
+            Copyright © <strong>Lock&Lock Mall</strong>. All rights reserved.
+          </p>
+          <p class="hosting displaynone">
+            <img
+              src="assets/imgs/logo_cafe24.png"
+              alt="hosting by cafe24 corporation"
+            />
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="quick-top">
+      <a href="#skipNavigation">to top </a>
+
+      <div id="progressPaybar" style="display: none">
+        <div id="progressPaybarBackground" class="layerProgress"></div>
+        <div id="progressPaybarView">
+          <div class="box">
+            <p class="graph">
+              <span
+                ><img
+                  src="assets/imgs/txt_progress.gif"
+                  alt="Payment is being processed."
+              /></span>
+              <span
+                ><img
+                  src="assets/imgs/img_loading.gif"
+                  alt=""
+              /></span>
+            </p>
+            <p class="txt">
+              Cửa sổ này sẽ tự động đóng khi thanh toán đã được xử lý.<br />
+              Vui lòng không đóng cửa sổ cho tới khi quá trình xử lý hoàn tất.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="reviewArea"
+        id="ec-board-zoom-wrapper"
+        style="display: none"
+      ></div>
+      <div
+        class="reviewArea"
+        async_module="smartreview_dispZoom"
+        async_type="template"
+        id="ec-board-zoom"
+      >
+        <div async_section="after" style="display: none">
+          <div class="dimmed"></div>
+          <div class="zoomLayer">
+            <h2>Phóng to</h2>
+            <div class="imgView" id="sliderWrap">
+              <ul
+                async_module="smartreview_dispFiles"
+                async_type="template"
+                class="slides"
+              >
+                <li>{$*img_src}</li>
+                <li>{$*img_src}</li>
+              </ul>
+              <div class="paging">
+                <button type="button" class="btnPrev">Trước</button>
+                <button type="button" class="btnNext">Sau</button>
+              </div>
+            </div>
+            <div class="reviewThumb">
+              <div class="thumbList">
+                <p class="count"></p>
+                <div id="zoomfakeScroll">
+                  <ul
+                    async_module="smartreview_dispFiles"
+                    async_type="template"
+                  >
+                    <li><a href="#none">{$*img_src_thumb_figure}</a></li>
+                    <li><a href="#none">{$*img_src_thumb_figure}</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btnClose ec-board-list-zoom-close">
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="reviewArea" id="ec-board-read-wrapper" style="display: none">
+        <div class="loadingBar">
+          <p>Đang xử lý. Vui lòng đợi trong giây lát.</p>
+          <img src="assets/imgs/ico_loading.gif" alt="" />
+        </div>
+      </div>
+      <div
+        class="reviewArea"
+        async_module="smartreview_dispRead"
+        async_type="template"
+      >
+        <div async_section="before" style="display: none">
+          <div class="loadingBar">
+            <p>Đang xử lý. Vui lòng đợi trong giây lát.</p>
+            <img src="assets/imgs/ico_loading.gif" alt="" />
+          </div>
+        </div>
+        <div async_section="after" style="display: none">
+          {$*csrf}
+          <div id="ec-board-review-read">
+            <div class="dimmed"></div>
+            <div class="reviewWrap ec-board-review-wrap">
+              <div class="reviewLayer typeRead">
+                <h2>Chi tiết review</h2>
+                <div class="reviewContent">
+                  <div class="prdInfo">
+                    <p class="reviewThumb">
+                      <a
+                        href="/product/detail.html?product_no=%7B%24*product_no%7D"
+                        class="ec-board-product-link"
+                        >{$*img_product_tiny_image}</a
+                      >
+                    </p>
+                    <div class="summary">
+                      <p class="icon">
+                        {$*display_product_new_icon}
+                        {$*display_product_recommand_icon}
+                        {$*display_product_soldout_icon}
+                        {$*display_product_stock_icon}
+                      </p>
+                      <a
+                        href="/product/detail.html?product_no=%7B%24*product_no%7D"
+                        class="heading ec-board-product-link"
+                        ><strong>{$*product_name|cut:50,...}</strong></a
+                      >
+                      <p class="price">
+                        {$*product_price} {$*product_tax_type_text}
+                      </p>
+                      <div class="info">
+                        <dl>
+                          <dd>{$*product_review_count}</dd>
+                          <dt>Review</dt>
+                        </dl>
+                        <dl class="{$*product_rating_display}">
+                          <dt>Điểm đánh giá</dt>
+                          <dd>{$*product_rating}</dd>
+                        </dl>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    async_module="smartreview_dispReadMileage"
+                    async_type="template"
+                    class="ec-board-mileage-wrapper"
+                  >
+                    <div
+                      async_section="after"
+                      style="display: none"
+                      class="mileage"
+                    >
+                      <p class="name">
+                        {$*display_group_icon}
+                        <a
+                          href="%7B%24*display_member_admin_link%7D"
+                          class="{$*display_member_admin_link_class}"
+                          ><strong>{$*writer_name}</strong></a
+                        >
+                      </p>
+                      <p class="desc {$*desc_todo_display}">
+                        <span class="label">{$*mileage_input_tag}</span>
+                        <span class="label">{$*mileage_input_tag}</span>
+                      </p>
+                      <a
+                        href="#none"
+                        class="btnGive ec-board-milage-set-btn {$*desc_todo_display}"
+                        data-type="{$*member_type}"
+                        ><img
+                          src="assets/imgs/btn_give_mileage.gif"
+                          alt="Cấp điểm thưởng"
+                      /></a>
+                      <p class="desc {$*desc_done_display}">
+                        <img
+                          src="assets/imgs/ico_mileage_complete.gif"
+                          alt="Hoàn tất cấp"
+                        />
+                        <strong>{$*done_price}</strong
+                        ><span class="date">{$*done_date}</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    async_module="smartreview_dispReadAddItem"
+                    async_type="template"
+                    class="{$*display_adding_item}"
+                  >
+                    <div
+                      async_section="after"
+                      style="display: none"
+                      class="addItem"
+                    >
+                      <table border="1" summary="">
+                        <caption>
+                          Hạng mục bổ sung
+                        </caption>
+                        <colgroup>
+                          <col style="width: 110px" />
+                          <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                          <tr class="{$*adding_item_info_display}">
+                            <th scope="row">{$*item_name}</th>
+                            <td>{$*item_value}</td>
+                          </tr>
+                          <tr class="{$*adding_item_info_display}">
+                            <th scope="row">{$*item_name}</th>
+                            <td>{$*item_value}</td>
+                          </tr>
+                          <tr class="{$*product_option_info_display}">
+                            <th scope="row">Option đã chọn</th>
+                            <td>
+                              <div class="prdOption">
+                                <p
+                                  class="normal {$*normal_product_info_display}"
+                                >
+                                  <span class="option"
+                                    >{$*display_product_option_info}
+                                    <strong
+                                      class="etc {$*normal_product_order_quantity_display}"
+                                      >và
+                                      {$*display_normal_product_order_quantity}</strong
+                                    ></span
+                                  >
+                                </p>
+                                <ul class="set {$*set_product_info_display}">
+                                  {$*display_product_set_info}
+                                </ul>
+                                <p class="etc {$*set_product_info_etc_display}">
+                                  <span
+                                    class="etcCount {$*set_product_others_count_display}"
+                                    >và {$*display_set_product_others_count}sản
+                                    phẩm mua kèm<strong
+                                      class="subInfo {$*set_product_order_quantity_display}"
+                                      >và
+                                      {$*display_set_product_order_quantity}</strong
+                                    ></span
+                                  >
+                                </p>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div async_section="error" style="display: none"></div>
+                  </div>
+                  <div class="view">
+                    <div class="text ec-board-content">{$*display_content}</div>
+                    <div
+                      async_module="smartreview_dispFiles"
+                      async_type="template"
+                      class="{$*view_display}"
+                    >
+                      <a
+                        href="#none"
+                        class="ec-board-zoom-view-btn"
+                        data-index="{$*index}"
+                        >{$*img_src}</a
+                      ><br /><a
+                        href="#none"
+                        class="ec-board-zoom-view-btn"
+                        data-index="{$*index}"
+                        >{$*img_src}</a
+                      ><br />
+                    </div>
+                  </div>
+                  <div class="social">
+                    <button
+                      type="button"
+                      class="btnLike ec-board-like {$*display_like_selected}"
+                      data-no="{$*no}"
+                    >
+                      Thích
+                    </button>
+                    <button
+                      type="button"
+                      class="btnShare ec-board-share {$*sns_share_display}"
+                    >
+                      Chia sẻ
+                    </button>
+                  </div>
+                  <div class="miniButton">
+                    <span class="left {$*admin_display}">
+                      <a
+                        href="#none"
+                        data-state_show="{$*state_show}"
+                        class="ec-board-state-show-btn"
+                        ><img
+                          src="assets/imgs/btn_post.gif"
+                          alt="Đăng"
+                          class="{$*show_status_display} ec-board-state-show" /><img
+                          src="assets/imgs/btn_post_no.gif"
+                          alt="Không đăng"
+                          class="{$*hide_status_display} ec-board-state-hide"
+                      /></a>
+                    </span>
+                    <a
+                      href="#none"
+                      class="ec-board-review-delete-btn {$*delete_btn_display}"
+                      ><img
+                        src="assets/imgs/btn_delete.gif"
+                        alt="Xóa"
+                    /></a>
+                    <a
+                      href="#none"
+                      class="ec-board-review-modify-btn {$*modify_btn_display}"
+                      ><img
+                        src="assets/imgs/btn_modify.gif"
+                        alt="Sửa"
+                    /></a>
+                  </div>
+                  <div
+                    async_module="smartreview_dispComment"
+                    async_type="template"
+                    class="ec-board-comment-wrapper"
+                  >
+                    <div async_section="before">
+                      <div class="loading">
+                        <img
+                          src="assets/imgs/ico_loading.gif"
+                          alt="Đang tải. Vui lòng đợi trong giây lát."
+                        />
+                      </div>
+                    </div>
+                    <div async_section="after" style="display: none">
+                      {$*csrf}
+                      <div class="commentWrite {$*no_right_class}">
+                        <p class="count">
+                          <strong class="ec-board-comment-count"
+                            >{$*count_comment}</strong
+                          >
+                          Bình luận
+                        </p>
+                        <div
+                          async_module="smartreview_dispCommentWrite"
+                          async_type="template"
+                          class="writeForm"
+                        >
+                          <div async_section="before">
+                            <div class="loading">
+                              <img
+                                src="assets/imgs/ico_loading.gif"
+                                alt="Đang tải. Vui lòng đợi trong giây lát."
+                              />
+                            </div>
+                          </div>
+                          <div async_section="after" style="display: none">
+                            <textarea
+                              class="ec-board-comment-textarea"
+                            ></textarea>
+                            <a
+                              href="#none"
+                              class="btnSubmit ec-board-comment-write-btn"
+                              ><img
+                                src="assets/imgs/btn_comment_submit.gif"
+                                alt="Đăng"
+                            /></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        async_module="smartreview_dispCommentList"
+                        async_type="template"
+                        class="commentList ec-board-comment-list"
+                      >
+                        <div async_section="before">
+                          <div class="loading">
+                            <img
+                              src="assets/imgs/ico_loading.gif"
+                              alt="Đang tải. Vui lòng đợi trong giây lát."
+                            />
+                          </div>
+                        </div>
+                        <div async_section="after" style="display: none">
+                          <ul class="{$*exist_display}">
+                            <li
+                              class="ec-board-comment-layer"
+                              data-comment_no="{$*no}"
+                            >
+                              <p class="summary">
+                                <span class="ec-board-comment-icon"
+                                  >{$*display_group_icon}{$*display_nick_icon}</span
+                                >
+                                <a
+                                  href="%7B%24*display_member_admin_link%7D"
+                                  class="{$*display_member_admin_link_class}"
+                                  ><strong class="name ec-board-comment-writer"
+                                    >{$*display_writer}</strong
+                                  ></a
+                                >
+                                <span class="date ec-board-comment-date"
+                                  >{$*write_date}</span
+                                >
+                              </p>
+                              <div class="comment ec-board-comment-content">
+                                {$*display_content}
+                              </div>
+                              <div
+                                class="writeForm ec-board-comment-modify-content"
+                                style="display: none"
+                              >
+                                <textarea
+                                  class="ec-board-comment-modify-textarea"
+                                >
+{$*content}</textarea
+                                >
+                                <a
+                                  href="#none"
+                                  class="btnModify ec-board-comment-modify-btn"
+                                  ><img
+                                    src="assets/imgs/btn_comment_modify.gif"
+                                    alt="Sửa"
+                                /></a>
+                              </div>
+                              <div class="button">
+                                <button
+                                  type="button"
+                                  class="btnComment modify {$*modify_display} ec-board-comment-modify-view-btn"
+                                >
+                                  Sửa
+                                </button>
+                                <button
+                                  type="button"
+                                  class="btnComment delete {$*delete_display} ec-board-comment-delete-btn"
+                                >
+                                  Xóa
+                                </button>
+                                <button
+                                  type="button"
+                                  class="btnComment cancel ec-board-comment-modify-cancel-btn"
+                                  style="display: none"
+                                >
+                                  Hủy
+                                </button>
+                              </div>
+                            </li>
+                            <li
+                              class="ec-board-comment-layer"
+                              data-comment_no="{$*no}"
+                            >
+                              <p class="summary">
+                                <span class="ec-board-comment-icon"
+                                  >{$*display_group_icon}{$*display_nick_icon}</span
+                                >
+                                <a
+                                  href="%7B%24*display_member_admin_link%7D"
+                                  class="{$*display_member_admin_link_class}"
+                                  ><strong class="name ec-board-comment-writer"
+                                    >{$*display_writer}</strong
+                                  ></a
+                                >
+                                <span class="date ec-board-comment-date"
+                                  >{$*write_date}</span
+                                >
+                              </p>
+                              <div class="comment ec-board-comment-content">
+                                {$*display_content}
+                              </div>
+                              <div
+                                class="writeForm ec-board-comment-modify-content"
+                                style="display: none"
+                              >
+                                <textarea
+                                  class="ec-board-comment-modify-textarea"
+                                >
+{$*content}</textarea
+                                >
+                                <a
+                                  href="#none"
+                                  class="btnModify ec-board-comment-modify-btn"
+                                  ><img
+                                    src="assets/imgs/btn_comment_modify.gif"
+                                    alt="Sửa"
+                                /></a>
+                              </div>
+                              <div class="button">
+                                <button
+                                  type="button"
+                                  class="btnComment modify {$*modify_display} ec-board-comment-modify-view-btn"
+                                >
+                                  Sửa
+                                </button>
+                                <button
+                                  type="button"
+                                  class="btnComment delete {$*delete_display} ec-board-comment-delete-btn"
+                                >
+                                  Xóa
+                                </button>
+                                <button
+                                  type="button"
+                                  class="btnComment cancel ec-board-comment-modify-cancel-btn"
+                                  style="display: none"
+                                >
+                                  Hủy
+                                </button>
+                              </div>
+                            </li>
+                          </ul>
+                          <div class="commentListEmpty {$*empty_display}">
+                            Không có bình luận.
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="btnMore {$*more_display} ec-board-comment-more-btn"
+                        style="display: none"
+                      >
+                        <span>Xem thêm</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="fixedBar">
+                  <div class="writerInfo">
+                    <h3 class="writer">
+                      {$*display_group_icon}{$*display_nick_icon}<a
+                        href="/board/smartreview/collect_writer.html?convert_id=%7B%24*convert_id%7D"
+                        class="ec-board-member-link"
+                        data-writer="{$*display_writer}"
+                        >Review của <strong>{$*display_writer}</strong></a
+                      >
+                    </h3>
+                    <div
+                      class="ec-board-grade ec-board-grade-read ec-board-star large"
+                    ></div>
+                    <div class="info">
+                      <dl>
+                        <dt>Lượt xem review</dt>
+                        <dd>{$*count_hit}</dd>
+                      </dl>
+                      <dl>
+                        <dt>Bình luận review</dt>
+                        <dd class="ec-board-comment-count">
+                          {$*count_comment}
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>Thích review này</dt>
+                        <dd class="ec-board-like-count">{$*count_like}</dd>
+                      </dl>
+                      <dl>
+                        <dt>Ngày viết review</dt>
+                        <dd>{$*write_date}</dd>
+                      </dl>
+                    </div>
+                    {$*display_best_icon_text}
+                    <h4 class="heading">Review sản phẩm khác</h4>
+                    <div
+                      async_module="smartreview_dispRecentReview"
+                      async_type="template"
+                    >
+                      <div async_section="after" style="display: none">
+                        <ul class="otherList {$*exist_display}">
+                          <li>
+                            <a
+                              href="#none"
+                              onclick="{$*display_read_link_onclick}"
+                              >{$*img_src_thumb_figure}</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="#none"
+                              onclick="{$*display_read_link_onclick}"
+                              >{$*img_src_thumb_figure}</a
+                            >
+                          </li>
+                        </ul>
+                        <p class="empty {$*empty_display}">
+                          Chưa có review sản phẩm khác.
+                        </p>
+                      </div>
+                    </div>
+                    <h4 class="heading">
+                      <strong>#Tag </strong>trong review gần đây
+                    </h4>
+                    <div
+                      async_module="smartreview_dispRecentHashtag"
+                      async_type="template"
+                    >
+                      <div async_section="after" style="display: none">
+                        <p class="recently {$*exist_display}">
+                          <a
+                            href="/board/smartreview/collect_hashtag.html?hashtag=%7B%24*hashtag_link%7D"
+                            class="hashTag"
+                            >#{$*hashtag}</a
+                          >
+                          <a
+                            href="/board/smartreview/collect_hashtag.html?hashtag=%7B%24*hashtag_link%7D"
+                            class="hashTag"
+                            >#{$*hashtag}</a
+                          >
+                        </p>
+                        <p class="empty {$*empty_display}">
+                          Chưa có #Tag trong review gần đây.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="close">
+                      <button
+                        type="button"
+                        class="btnClose ec-board-list-read-close"
+                      >
+                        Đóng
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviewArea">
+        <div id="ec-board-write-wrapper" style="display: none"></div>
+        <div async_module="smartreview_dispWrite" async_type="template">
+          <div async_section="before" style="display: none">
+            <div class="loadingBar">
+              <p>Đang xử lý. Vui lòng đợi trong giây lát.</p>
+              <img
+                src="assets/imgs/ico_loading.gif"
+                alt=""
+              />
+            </div>
+          </div>
+          <div async_section="after" style="display: none">
+            <div id="ec-board-review-write">
+              <div class="dimmed"></div>
+              <div class="reviewLayer typeWrite ec-board-review-wrap">
+                <h2>Viết review</h2>
+                <div class="content">
+                  <div class="prdInfo">
+                    <p class="reviewThumb">
+                      <a
+                        href="/product/detail.html?product_no=%7B%24*product_no%7D"
+                        class="ec-board-product-link"
+                        >{$*img_product_tiny_image}</a
+                      >
+                    </p>
+                    <div class="summary">
+                      <p class="icon">
+                        {$*display_product_new_icon}
+                        {$*display_product_recommand_icon}
+                        {$*display_product_soldout_icon}
+                        {$*display_product_stock_icon}
+                      </p>
+                      <strong class="heading"
+                        >{$*product_name|cut:50,...}</strong
+                      >
+                      <p class="price">
+                        {$*product_price} {$*product_tax_type_text}
+                      </p>
+                      <div class="info infoB">
+                        <dl>
+                          <dd>{$*product_review_count}</dd>
+                          <dt>Review</dt>
+                        </dl>
+                        <dl class="{$*product_rating_display}">
+                          <dt>Điểm đánh giá</dt>
+                          <dd>{$*product_rating}</dd>
+                        </dl>
+                        <a
+                          href="#none"
+                          class="btnOther {$*use_other_select_display}"
+                          onclick="window.open('/board/smartreview/other_select.html{$*other_select_param}','','width=600,height=670');return false;"
+                          ><img
+                            src="assets/imgs/btn_other_select.gif"
+                            alt="Chọn sản phẩm khác"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ec-board-grade ec-board-grade-write ec-board-star large"
+                  ></div>
+
+                  <div
+                    async_module="smartreview_dispWriteAddItem"
+                    async_type="template"
+                    class="{$*display_adding_item}"
+                  >
+                    <div async_section="before" style="display: none">
+                      <div class="loading">
+                        <img
+                          src="assets/imgs/ico_loading.gif"
+                          alt="Đang tải. Vui lòng đợi trong giây lát."
+                        />
+                      </div>
+                    </div>
+                    <div
+                      async_section="after"
+                      style="display: none"
+                      class="addItem"
+                    >
+                      <table border="1" summary="">
+                        <caption>
+                          Hạng mục bổ sung
+                        </caption>
+                        <colgroup>
+                          <col style="width: 110px" />
+                          <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                          <tr class="{$*adding_item_info_display}">
+                            <th scope="row">{$*item_name}</th>
+                            <td>{$*item_value}</td>
+                          </tr>
+                          <tr class="{$*adding_item_info_display}">
+                            <th scope="row">{$*item_name}</th>
+                            <td>{$*item_value}</td>
+                          </tr>
+                          <tr class="{$*product_option_info_display}">
+                            <th scope="row">Option đã chọn</th>
+                            <td>
+                              <div class="prdOption">
+                                <p
+                                  class="normal {$*normal_product_info_display}"
+                                >
+                                  <span class="option"
+                                    >{$*display_product_option_info}
+                                    <strong
+                                      class="etc {$*normal_product_order_quantity_display}"
+                                      >và
+                                      {$*display_normal_product_order_quantity}</strong
+                                    ></span
+                                  >
+                                </p>
+                                <ul class="set {$*set_product_info_display}">
+                                  {$*display_product_set_info}
+                                </ul>
+                                <p class="etc {$*set_product_info_etc_display}">
+                                  <span
+                                    class="etcCount {$*set_product_others_count_display}"
+                                    >và {$*display_set_product_others_count}sản
+                                    phẩm mua kèm
+                                    <strong
+                                      class="subInfo {$*set_product_order_quantity_display}"
+                                      >và
+                                      {$*display_set_product_order_quantity}</strong
+                                    ></span
+                                  >
+                                </p>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div async_section="error" style="display: none"></div>
+                  </div>
+                  <div class="contentWarp">
+                    {$*csrf}
+                    <div class="contentBox"></div>
+                    <textarea
+                      rows="4"
+                      cols="77"
+                      class="contentWrite"
+                      placeholder="Vui lòng nhập nội dung"
+                    ></textarea>
+                  </div>
+                  <div class="attachList empty">
+                    <ul>
+                      <li>
+                        <label
+                          for="ec-board-review-upload1"
+                          class="btnAdd"
+                        ></label>
+                      </li>
+                    </ul>
+                    <label
+                      for="ec-board-review-upload0"
+                      class="btnAddEmpty"
+                    ></label>
+                  </div>
+                  <p class="wordCount">
+                    <strong class="blind">Số ký tự</strong>
+                    <span class="ec-board-current-text-count"></span
+                    ><span class="ec-board-current-text-tail"></span>
+                  </p>
+                  <div
+                    async_module="smartreview_dispWriteHashTag"
+                    async_type="template"
+                    class="{$*display_hash_tag}"
+                  >
+                    <div async_section="before" style="display: none">
+                      <div class="loading">
+                        <img
+                          src="assets/imgs/ico_loading.gif"
+                          alt="Đang tải. Vui lòng đợi trong giây lát."
+                        />
+                      </div>
+                    </div>
+                    <div
+                      async_section="after"
+                      style="display: none"
+                      class="recommend"
+                    >
+                      <h3>Tag đề xuất</h3>
+                      <div class="tags">
+                        <span class="btnHash">{$*hashtag}</span>
+                        <span class="btnHash">{$*hashtag}</span>
+                      </div>
+                    </div>
+                    <div async_section="error" style="display: none"></div>
+                  </div>
+
+                  <div class="postSns {$*use_sns_display}">
+                    <h3>Nhúng bài viết vào MXH</h3>
+                    <span class="checkDesign"
+                      ><input type="checkbox" id="ec-board-post-sns" /><label
+                        for="ec-board-post-sns"
+                        >Cho phép</label
+                      ></span
+                    >
+                  </div>
+
+                  <div class="noMember {$*use_is_login_display}">
+                    <h3>Đồng ý sử dụng thông tin cá nhân.</h3>
+                    <div class="termArea">
+                      <span class="checkDesign"
+                        ><input
+                          type="checkbox"
+                          id="ec-board-term-agree"
+                        /><label class="ec-board-term-agree"
+                          >Đồng ý thu thập và sử dụng thông tin cá nhân.</label
+                        ></span
+                      >
+                      <button
+                        type="button"
+                        class="ec-board-button-agree btnFold"
+                      >
+                        Xem nội dung
+                      </button>
+                      <div
+                        class="ec-board-content-agree term"
+                        style="white-space: pre-line; overflow-y: auto"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="btnArea">
+                    <a
+                      class="btn_Black"
+                      href="#none"
+                      id="ec-board-review-write-button"
+                      >Đăng đánh gi</a
+                    >
+                  </div>
+                </div>
+                <div class="close">
+                  <button
+                    type="button"
+                    class="btnClose"
+                    id="ec-board-review-write-close-button"
+                  >
+                    Đóng
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div async_section="error" style="display: none">error</div>
+        </div>
+      </div>
+      <div class="reviewArea">
+        <div id="ec-board-write-wrapper" style="display: none"></div>
+        <div async_module="smartreview_dispModify" async_type="template">
+          <div async_section="before" style="display: none">
+            <div class="loadingBar">
+              <p>Đang xử lý. Vui lòng đợi trong giây lát.</p>
+              <img
+                src="assets/imgs/ico_loading.gif"
+                alt=""
+              />
+            </div>
+          </div>
+          <div async_section="after" style="display: none">
+            <div id="ec-board-review-write">
+              <div class="dimmed"></div>
+              <div class="reviewLayer typeWrite ec-board-review-wrap">
+                <h2>Sửa review</h2>
+                <div class="content">
+                  <div class="prdInfo">
+                    <p class="reviewThumb">
+                      <a
+                        href="/product/detail.html?product_no=%7B%24*product_no%7D"
+                        class="ec-board-product-link"
+                        >{$*img_product_tiny_image}</a
+                      >
+                    </p>
+                    <div class="summary">
+                      <p class="icon">
+                        {$*display_product_new_icon}
+                        {$*display_product_recommand_icon}
+                        {$*display_product_soldout_icon}
+                        {$*display_product_stock_icon}
+                      </p>
+                      <strong class="heading"
+                        >{$*product_name|cut:50,...}</strong
+                      >
+                      <p class="price">
+                        {$*product_price} {$*product_tax_type_text}
+                      </p>
+                      <div class="info">
+                        <dl>
+                          <dd>{$*product_review_count}</dd>
+                          <dt>Review</dt>
+                        </dl>
+                        <dl class="{$*product_rating_display}">
+                          <dt>Điểm đánh giá</dt>
+                          <dd>{$*product_rating}</dd>
+                        </dl>
+                        <a
+                          href="#none"
+                          class="btnOther {$*use_other_select_display}"
+                          onclick="window.open('/board/smartreview/other_select.html','','width=600,height=670');return false;"
+                          ><img
+                            src="assets/imgs/btn_other_select.gif"
+                            alt="Chọn sản phẩm khác"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ec-board-grade ec-board-grade-write ec-board-star large"
+                  ></div>
+                  <div
+                    async_module="smartreview_dispModifyFile"
+                    async_type="template"
+                  >
+                    <div async_section="before" style="display: none">
+                      <div class="loading">
+                        <img
+                          src="assets/imgs/ico_loading.gif"
+                          alt="Đang tải. Vui lòng đợi trong giây lát."
+                        />
+                      </div>
+                    </div>
+                    <div async_section="after">
+                      <div class="attachList empty">
+                        <ul>
+                          <li class="{$*imageAssign}">
+                            {$*img_url}
+                            <button type="button" class="btnDelete">Xóa</button>
+                          </li>
+                          <li class="{$*imageAssign}">
+                            {$*img_url}
+                            <button type="button" class="btnDelete">Xóa</button>
+                          </li>
+                        </ul>
+                        <label
+                          for="ec-board-review-upload1"
+                          class="btnAdd"
+                          style="display: none"
+                          >Thêm ảnh</label
+                        >
+                        <label
+                          for="ec-board-review-upload0"
+                          class="btnAddEmpty"
+                          style="display: none"
+                          >Thêm ảnh</label
+                        >
+                      </div>
+                    </div>
+                    <div async_section="error" style="display: none"></div>
+                  </div>
+                  <div
+                    async_module="smartreview_dispModifyAddItem"
+                    async_type="template"
+                    class="{$*display_adding_item}"
+                  >
+                    <div async_section="before" style="display: none">
+                      <div class="loading">
+                        <img
+                          src="assets/imgs/ico_loading.gif"
+                          alt="Đang tải. Vui lòng đợi trong giây lát."
+                        />
+                      </div>
+                    </div>
+                    <div
+                      async_section="after"
+                      style="display: none"
+                      class="addItem"
+                    >
+                      <table border="1" summary="">
+                        <caption>
+                          Hạng mục bổ sung
+                        </caption>
+                        <colgroup>
+                          <col style="width: 110px" />
+                          <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                          <tr class="{$*adding_item_info_display}">
+                            <th scope="row">{$*item_name}</th>
+                            <td>{$*item_value}</td>
+                          </tr>
+                          <tr class="{$*adding_item_info_display}">
+                            <th scope="row">{$*item_name}</th>
+                            <td>{$*item_value}</td>
+                          </tr>
+                          <tr class="{$*product_option_info_display}">
+                            <th scope="row">Option đã chọn</th>
+                            <td>
+                              <div class="prdOption">
+                                <p
+                                  class="normal {$*normal_product_info_display}"
+                                >
+                                  <span class="option"
+                                    >{$*display_product_option_info}
+                                    <strong
+                                      class="etc {$*normal_product_order_quantity_display}"
+                                      >và
+                                      {$*display_normal_product_order_quantity}</strong
+                                    ></span
+                                  >
+                                </p>
+                                <ul class="set {$*set_product_info_display}">
+                                  {$*display_product_set_info}
+                                </ul>
+                                <p class="etc {$*set_product_info_etc_display}">
+                                  <span
+                                    class="etcCount {$*set_product_others_count_display}"
+                                    >và {$*display_set_product_others_count}sản
+                                    phẩm mua kèm
+                                    <strong
+                                      class="subInfo {$*set_product_order_quantity_display}"
+                                      >và
+                                      {$*display_set_product_order_quantity}</strong
+                                    ></span
+                                  >
+                                </p>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div async_section="error" style="display: none"></div>
+                  </div>
+                  <div class="contentWarp">
+                    {$*csrf}
+                    <div class="contentBox"></div>
+                    <textarea
+                      rows="4"
+                      cols="77"
+                      class="contentWrite"
+                      placeholder="Vui lòng nhập nội dung."
+                    >
+{$*contents}</textarea
+                    >
+                  </div>
+                  <p class="wordCount">
+                    <strong class="blind">Số ký tự</strong>
+                    <span class="ec-board-current-text-count"></span
+                    ><span class="ec-board-current-text-tail"></span>
+                  </p>
+                  <div
+                    async_module="smartreview_dispModifyHashTag"
+                    async_type="template"
+                    class="{$*display_hash_tag}"
+                  >
+                    <div async_section="before" style="display: none">
+                      <div class="loading">
+                        <img
+                          src="assets/imgs/ico_loading.gif"
+                          alt="Đang tải. Vui lòng đợi trong giây lát."
+                        />
+                      </div>
+                    </div>
+                    <div
+                      async_section="after"
+                      style="display: none"
+                      class="recommend"
+                    >
+                      <h3>Tag đề xuất</h3>
+                      <div class="tags">
+                        <span class="btnHash">{$*hashtag}</span>
+                        <span class="btnHash">{$*hashtag}</span>
+                      </div>
+                    </div>
+                    <div async_section="error" style="display: none"></div>
+                  </div>
+
+                  <div class="postSns {$*use_sns_display}">
+                    <h3>Nhúng bài viết vào MXH</h3>
+                    <span class="checkDesign"
+                      ><input
+                        type="checkbox"
+                        id="ec-board-post-sns"
+                        value="{$*post_sns_value}"
+                      /><label for="ec-board-post-sns">Cho phép</label></span
+                    >
+                  </div>
+
+                  <div class="noMember {$*use_is_login_display}">
+                    <h3>Đồng ý sử dụng thông tin cá nhân.</h3>
+                    <div class="termArea">
+                      <span class="checkDesign"
+                        ><input
+                          type="checkbox"
+                          id="ec-board-term-agree"
+                        /><label class="ec-board-term-agree"
+                          >Đồng ý thu thập và sử dụng thông tin cá nhân.</label
+                        ></span
+                      >
+                      <button
+                        type="button"
+                        class="ec-board-button-agree btnFold"
+                      >
+                        Xem nội dung
+                      </button>
+                      <textarea
+                        class="ec-board-content-agree term"
+                        cols="75"
+                        rows="4"
+                        readonly="readonly"
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <div class="btnArea">
+                    <a href="#none" id="ec-board-review-modify-button"
+                      ><img
+                        src="assets/imgs/btn_review_modify.gif"
+                        alt="Sửa review"
+                    /></a>
+                  </div>
+                </div>
+                <div class="close">
+                  <button
+                    type="button"
+                    class="btnClose"
+                    id="ec-board-review-write-close-button"
+                  >
+                    Đóng
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div async_section="error" style="display: none">error</div>
+        </div>
+      </div>
+
+      <div class="reviewArea" async_module="smartreview_DispReviewPopup">
+        <div async_section="after" style="display: none">
+          <div id="ec-board-review-popup" style="display: none">
+            <div class="reviewLayer typeLead">
+              <h2>Pop-up gợi ý review</h2>
+              <p class="benefitInfo">
+                <span class="name">{$*member_name}</span> Hãy viết review để
+                <br />nhận nhiều ưu đãi điểm thưởng hấp dẫn.
+              </p>
+              <div class="content">
+                <div async_module="smartreview_DispReviewPopupData">
+                  <div class="possible ec-board-able">
+                    <h3>Sản phẩm có thể viết review</h3>
+                    <span class="count"
+                      >(Tổng <strong>{$*review_writable_count}</strong>)</span
+                    >
+                    <div class="possible ec-board-able-list">
+                      <ul>
+                        <li
+                          class="ec-board-able-btn"
+                          data-product-no="{$*product_no}"
+                          data-order-id="{$*order_id}"
+                          data-item-code="{$*item_code}"
+                        >
+                          <a href="#none">{$*list_image_url}</a>
+                        </li>
+                        <li
+                          class="ec-board-able-btn"
+                          data-product-no="{$*product_no}"
+                          data-order-id="{$*order_id}"
+                          data-item-code="{$*item_code}"
+                        >
+                          <a href="#none">{$*list_image_url}</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="paging {$*review_page_display}">
+                      <button
+                        id="ec-board-review-popup-pagination-prev-button"
+                        type="button"
+                        class="btnPrev"
+                      >
+                        Trước
+                      </button>
+                      <button
+                        id="ec-board-review-popup-pagination-next-button"
+                        type="button"
+                        class="btnNext"
+                      >
+                        Sau
+                      </button>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  id="ec-board-review-write-wrapper"
+                  style="display: none"
+                ></div>
+              </div>
+              <div class="close">
+                <strong class="today"
+                  >{$*display_popup_close_block_html}<label
+                    for="popup_close_type"
+                    >{$*display_popup_close_type}</label
+                  ></strong
+                >
+                <button
+                  type="button"
+                  class="btnClose"
+                  id="ec-board-review-popup-close-button"
+                >
+                  Đóng
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="ec-board-review-write-template">
+        <div async_module="smartreview_dispWritePopup" async_type="template">
+          <div async_section="after" style="display: none">
+            <div class="prdInfo">
+              <p class="reviewThumb">
+                <a
+                  href="/product/detail.html?product_no=%7B%24*product_no%7D"
+                  class="ec-board-product-link"
+                  >{$*img_product_tiny_image}</a
+                >
+              </p>
+              <div class="summary">
+                <p class="icon">
+                  {$*display_product_new_icon}
+                  {$*display_product_recommand_icon}
+                  {$*display_product_soldout_icon}
+                  {$*display_product_stock_icon}
+                </p>
+                <strong class="heading">{$*product_name|cut:50,...}</strong>
+                <p class="price">{$*product_price} {$*product_tax_type_text}</p>
+                <div class="info infoB">
+                  <dl>
+                    <dd>{$*product_review_count}</dd>
+                    <dt>Review</dt>
+                  </dl>
+                  <dl class="{$*product_rating_display}">
+                    <dt>Điểm đánh giá</dt>
+                    <dd>{$*product_rating}</dd>
+                  </dl>
+                  <a
+                    href="#none"
+                    class="btnOther {$*use_other_select_display}"
+                    onclick="window.open('/board/smartreview/other_select.html{$*other_select_param}','','width=600,height=670');return false;"
+                    ><img
+                      src="assets/imgs/btn_other_select.gif"
+                      alt="Chọn sản phẩm khác"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ec-board-grade ec-board-grade-write ec-board-star large"
+            ></div>
+
+            <div
+              async_module="smartreview_dispWriteAddItem"
+              async_type="template"
+              class="{$*display_adding_item}"
+            >
+              <div async_section="before" style="display: none">
+                <div class="loading">
+                  <img
+                    src="assets/imgs/ico_loading.gif"
+                    alt="Đang tải. Vui lòng đợi trong giây lát."
+                  />
+                </div>
+              </div>
+              <div async_section="after" style="display: none" class="addItem">
+                <table border="1" summary="">
+                  <caption>
+                    Hạng mục bổ sung
+                  </caption>
+                  <colgroup>
+                    <col style="width: 110px" />
+                    <col style="width: auto" />
+                  </colgroup>
+                  <tbody>
+                    <tr class="{$*adding_item_info_display}">
+                      <th scope="row">{$*item_name}</th>
+                      <td>{$*item_value}</td>
+                    </tr>
+                    <tr class="{$*adding_item_info_display}">
+                      <th scope="row">{$*item_name}</th>
+                      <td>{$*item_value}</td>
+                    </tr>
+                    <tr class="{$*product_option_info_display}">
+                      <th scope="row">Option đã chọn</th>
+                      <td>
+                        <div class="prdOption">
+                          <p class="normal {$*normal_product_info_display}">
+                            <span class="option"
+                              >{$*display_product_option_info}
+                              <strong
+                                class="etc {$*normal_product_order_quantity_display}"
+                                >và
+                                {$*display_normal_product_order_quantity}</strong
+                              ></span
+                            >
+                          </p>
+                          <ul class="set {$*set_product_info_display}">
+                            {$*display_product_set_info}
+                          </ul>
+                          <p class="etc {$*set_product_info_etc_display}">
+                            <span
+                              class="etcCount {$*set_product_others_count_display}"
+                              >và {$*display_set_product_others_count}sản phẩm
+                              mua kèm
+                              <strong
+                                class="subInfo {$*set_product_order_quantity_display}"
+                                >và
+                                {$*display_set_product_order_quantity}</strong
+                              ></span
+                            >
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div async_section="error" style="display: none"></div>
+            </div>
+            <div class="contentWarp">
+              {$*csrf}
+              <div class="contentBox"></div>
+              <textarea
+                rows="4"
+                cols="77"
+                class="contentWrite"
+                placeholder="Vui lòng nhập nội dung"
+              ></textarea>
+            </div>
+            <div class="attachList empty">
+              <ul>
+                <li>
+                  <label for="ec-board-review-upload1" class="btnAdd"></label>
+                </li>
+              </ul>
+              <label
+                for="ec-board-review-upload0"
+                class="btnAddEmpty"
+              ></label>
+            </div>
+            <p class="wordCount">
+              <strong class="blind">Số ký tự</strong>
+              <span class="ec-board-current-text-count"></span
+              ><span class="ec-board-current-text-tail"></span>
+            </p>
+            <div
+              async_module="smartreview_dispWriteHashTag"
+              async_type="template"
+              class="{$*display_hash_tag}"
+            >
+              <div async_section="before" style="display: none">
+                <div class="loading">
+                  <img
+                    src="assets/imgs/ico_loading.gif"
+                    alt="Đang tải. Vui lòng đợi trong giây lát."
+                  />
+                </div>
+              </div>
+              <div
+                async_section="after"
+                style="display: none"
+                class="recommend"
+              >
+                <h3>Tag đề xuất</h3>
+                <div class="tags">
+                  <span class="btnHash">{$*hashtag}</span>
+                  <span class="btnHash">{$*hashtag}</span>
+                </div>
+              </div>
+              <div async_section="error" style="display: none"></div>
+            </div>
+
+            <div class="postSns {$*use_sns_display}">
+              <h3>Nhúng bài viết vào MXH</h3>
+              <span class="checkDesign"
+                ><input type="checkbox" id="ec-board-post-sns" /><label
+                  for="ec-board-post-sns"
+                  >Cho phép</label
+                ></span
+              >
+            </div>
+
+            <div class="noMember {$*use_is_login_display}">
+              <h3>Đồng ý sử dụng thông tin cá nhân.</h3>
+              <div class="termArea">
+                <span class="checkDesign"
+                  ><input type="checkbox" id="ec-board-term-agree" /><label
+                    class="ec-board-term-agree"
+                    >Đồng ý thu thập và sử dụng thông tin cá nhân.</label
+                  ></span
+                >
+                <button type="button" class="ec-board-button-agree btnFold">
+                  Xem nội dung
+                </button>
+                <div
+                  class="ec-board-content-agree term"
+                  style="white-space: pre-line; overflow-y: auto"
+                ></div>
+              </div>
+            </div>
+            <div class="btnArea">
+              <a href="#none" id="ec-board-review-write-button" class="submit"
+                ><img
+                  src="assets/imgs/btn_review_write.gif"
+                  alt="Đăng review"
+              /></a>
+            </div>
+          </div>
+          <div async_section="error" style="display: none">error</div>
+        </div>
+      </div>
+      <div async_module="smartreview_DispAutoLoad"></div>
+
+    </div>
+    <div id="fbe_common_top_script" style="display: none"></div>
+    <div id="fbe_common_bottom_script" style="display: none">
+      <div
+        class="fb-customerchat"
+        page_id="1817484021682945"
+        attribution="fbe_3rd_cafe24"
+      ></div>
+    </div>
+  </body>
+</html>
